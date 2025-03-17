@@ -499,6 +499,9 @@ footer{
     .screen1MainText{
         font-size: 22px;
     }
+    .headerList{
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 1530px) {
