@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+  
 }
 
 body{
@@ -8,6 +9,7 @@ body{
         font-weight: 400;
         font-style: normal;
        background-color: #141414;
+       overflow-x: hidden;
 }
 
 .headerWrapper{
@@ -231,7 +233,6 @@ a{
     height: 100%;
     background-color: whitesmoke;
     border-radius: 15px;
-   
 }
 
 .itemGrHeader{
@@ -427,4 +428,218 @@ footer{
     text-align: center;
     font-size: 48px;
     padding-top: 10px;
+}
+
+@media screen and (max-width: 1650px) {
+    .gridForRv{
+        display: grid;
+        grid-template-columns: repeat(3 , 250px);
+        grid-template-rows: repeat(2 , 180px);
+        grid-gap: 45px;
+    }
+    iframe{
+        border-radius: 15px;
+        height: 400px ;
+        width: 520px ;
+    }
+    .starReview{
+        width: 90px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    
+    .reviewName{
+        font-size: 16px;
+        margin-left: 15px;
+    }
+    
+    .reviewTxt{
+        font-size: 12px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    
+    .reviewImg{
+        position: absolute;
+        width: 80px;
+        margin-left: 160px;
+        margin-top: 10px;
+    }
+  
+    .screen4Grid{
+        display: grid;
+        grid-template-columns: repeat(3 , 460px);
+        grid-template-rows: repeat(2 , 280px);
+        grid-gap:30px ;
+    }
+    .orderConsult{
+        position: absolute;
+        margin-left: 83%;
+        margin-top: -100px !important;
+    }
+
+    #headerButton{
+        width: 11vw;
+    }
+    
+    #headerButton a{
+        color: whitesmoke ;
+        font-size: 22px;
+    }
+    .headerList{
+        margin-top: 15px;
+    }
+    .grlist{
+        margin-left: 50px;
+        margin-top: -15px;
+    }
+    .screenOne{
+        height: 90vh;
+    }
+    .screen1MainText{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    .screen4Grid{
+        display: grid;
+        grid-template-columns: repeat(3 , 430px);
+        grid-template-rows: repeat(2 , 280px);
+        grid-gap:30px ;
+    }
+    
+        .screen2item{
+    border-radius: 15px;
+    width:350px ;
+    height: 550px;
+    }   
+    iframe{
+        width: 450px;
+    }
+ 
+}
+
+@media screen and (max-width: 1444px) {
+    .screen1MainText p {
+        font-size: 24px;
+    }
+    .orderConsult{
+        margin-left: 81%;
+        font-size: 26px;
+    }
+    .screen4Pl,
+    .screen4DpTxt{
+        margin-left: 5vw;
+    }
+    .screen4Grid{
+        margin-left: 5vw;
+        display: grid;
+        grid-template-columns: repeat(3 , 410px);
+        grid-template-rows: repeat(2 , 280px);
+        grid-gap:30px ;
+    }
+    .screenTwo{
+        height: 85vh; 
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .headerButton{
+        font-size: 18px;
+    }
+    .orderConsult{
+        margin-left: 79%;
+        font-size: 26px;
+    }
+    .screen4Pl,
+    .screen4DpTxt{
+        margin-left: 6%;
+    }
+    .screen4Grid{
+        margin-left: 6%;
+        display: grid;
+        grid-template-columns: repeat(3 , 380px);
+        grid-template-rows: repeat(2 , 280px);
+        grid-gap:30px ;
+    }
+
+    .screen5{
+        height: auto;
+    }
+    .gridForRv{
+        display: grid;
+        grid-template-columns: repeat(2 , 300px);
+        grid-template-rows: repeat(3 , 200px);
+        grid-gap: 55px;
+    }
+
+    .reviewWhite{
+        order: 4 ;
+    }
+    iframe{
+        height: 700px;
+        width: 550px;
+    }
+
+    .screen6{
+        justify-content: space-between;
+    }
+    .formScreen6{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #headerButton{
+        font-size: 14px;
+        width: 15vw;
+    }
+
+    .screen4Pl,
+    .screen4DpTxt{
+        margin-left: 4%;
+    }
+    .screen4Grid{
+        margin-left: 4%;
+        display: grid;
+        grid-template-columns: repeat(3 , 360px);
+        grid-template-rows: repeat(2 , 280px);
+        grid-gap:30px ;
+    }
+    .orderConsult{
+        margin-left: 77%;
+        font-size: 26px;
+    }
+
+    .screen2BlocksWrapper{
+        display: flex;
+        width: 120%;
+        margin-left: -10% ;
+        justify-content: space-around;
+    }
+    .orderConsult{
+        margin-left: 81%;
+   
+    }
+
+    .screen3Img{
+        width: 350px;
+        height: auto;
+    }
+    .formScreen6{
+        margin-left: 60px;
+    }
+
+    .gridForRv{
+        display: grid;
+        grid-template-columns: repeat(2 , 300px);
+        grid-template-rows: repeat(3 , 200px);
+        grid-gap: 25px;
+    }
+    
+    iframe{
+        height: 645px;
+        width: 550px;
+    }
 }
