@@ -5,34 +5,237 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:wght@100;300&family=Lalezar&family=Overlock:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
     <header class="headerWrapper" id="headerM">
         <img src="imgs/header.png" alt="logo image" class="headerImg">
         <ul class="headerList">
-            <li><a href="#header">MAIN</a></li>
-            <li><a href="#screen2" style="  white-space: nowrap;overflow: hidden; text-overflow: ellipsis; ">ABOUT US</a></li>
-            <li><a href="#screen3">SERVICES</a></li>
-            <li><a href="#screen4">REVIEWS</a></li>
-            <li><a href="#screen5">CONTACTS </a></li>
+            <li><a href="#header">About us</a></li>
+            <li><a href="#">Work examples</a></li>
+            <li><a href="#">Prices</a></li>
+            <li><a href="#">Links </a></li>
         </ul>
-
-
-        <div class="gradientBtn"></div>
-        <button class="burgerMenu" id="burgerMenu">
-            <img src="imgs/burgerLogo.png" class="imgBurger" alt="">
-        </button>
-        <ul class="headerListMobile">
-            <li><a href="#headerM">MAIN</a></li>
-            <li><a href="#screen2M" style="  white-space: nowrap;overflow: hidden; text-overflow: ellipsis; ">ABOUT US</a></li>
-            <li><a href="#screen3M">SERVICES</a></li>
-            <li><a href="#screen4M">REVIEWS</a></li>
-            <li><a href="#screen5M">CONTACTS </a></li>
-
-        </ul>
-        <div class="gradientHeaderM"></div>
-        <button id="headerButton"><a href="#consult">MESSAGE US</a></button>
+        <button id="headerButton"><a href="#">Order service</a></button>
     </header>
+
+    <div class="screenOne">
+        <div class="nameScreen11"><p class="nameScreen1">BOBER.BIKE</p></div>
+        <div class="screen1MainText">
+            <p>Text about workshop service quality and so all
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </div>
+
+    <div class="screenTwo">
+        <p class="screen2Header">Types of work we do</p>
+        <div class="screen2BlocksWrapper">
+            <div class="screen2item">
+                <img src="imgs/1111.jpg" class="screen2ItemImg" alt="">
+                <ul class="screen2List">
+                    <li>Fixing small issues</li>
+                    <li>Regular maintenance</li>
+                    <li>Geting bike ready for the season</li>
+                    <li>Before/after selling preparation</li>
+                </ul>
+            </div>
+            <div class="screen2item item2">
+                <img src="imgs/1111.jpg" class="screen2ItemImg" alt="">
+                <ul class="screen2List">
+                    <li>Fixing small issues</li>
+                    <li>Regular maintenance</li>
+                    <li>Geting bike ready for the season</li>
+                    <li>Before/after selling preparation</li>
+                </ul>
+            </div>
+            <div class="screen2item item3">
+                <img src="imgs/1111.jpg" class="screen2ItemImg" alt="">
+                <ul class="screen2List">
+                    <li>Fixing small issues</li>
+                    <li>Regular maintenance</li>
+                    <li>Geting bike ready for the season</li>
+                    <li>Before/after selling preparation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="screen3">
+        <p class="screen3Txt">Your bike will be always fresh with us
+        </p>
+
+        <div class="screen3Imgs">
+            <img src="imgs/image.png" class="screen3Img" alt="">
+            <img src="imgs/2222.webp" class="screen3Img" alt="">
+            <img src="imgs/3333.jpg" class="screen3Img" alt="">
+        </div>
+    </div>
     
+    <div class="screen4">
+        <p class="screen4Pl">Price List</p>
+        <p class="screen4DpTxt">Can be changed depending on the difficulty of work</p>
+        <button class="orderConsult">Order consult
+        </button>
+        <div class="screen4Grid">
+            <div class="itemGr">
+                <p class="itemGrHeader">Forks services</p>
+                <ul class="grlist">
+                    <li>ТО вилки - 55$</li>
+                    <li>заміна штоку - 30$</li>
+                    <li>lower leg service - 40$</li>
+                    <li>заміна вилки - 20$</li>
+                    <li>заміна башингів - 30$</li>
+                </ul>
+            </div>
+            <div class="itemGr itemGrOrange">
+                <p class="itemGrHeader">Forks services</p>
+                <ul class="grlist">
+                    <li>ТО вилки - 55$</li>
+                    <li>заміна штоку - 30$</li>
+                    <li>lower leg service - 40$</li>
+                    <li>заміна вилки - 20$</li>
+                    <li>заміна башингів - 30$</li>
+                </ul>
+            </div>
+            <div class="itemGr itemGrGreen">
+                <p class="itemGrHeader">Forks services</p>
+                <ul class="grlist">
+                    <li>ТО вилки - 55$</li>
+                    <li>заміна штоку - 30$</li>
+                    <li>lower leg service - 40$</li>
+                    <li>заміна вилки - 20$</li>
+                    <li>заміна башингів - 30$</li>
+                </ul>
+            </div>
+            <div class="itemGr itemGrOrange">
+                <p class="itemGrHeader">Forks services</p>
+                <ul class="grlist">
+                    <li>ТО вилки - 55$</li>
+                    <li>заміна штоку - 30$</li>
+                    <li>lower leg service - 40$</li>
+                    <li>заміна вилки - 20$</li>
+                    <li>заміна башингів - 30$</li>
+                </ul>
+            </div>
+            <div class="itemGr itemGrGreen">
+                <p class="itemGrHeader">Forks services</p>
+                <ul class="grlist">
+                    <li>ТО вилки - 55$</li>
+                    <li>заміна штоку - 30$</li>
+                    <li>lower leg service - 40$</li>
+                    <li>заміна вилки - 20$</li>
+                    <li>заміна башингів - 30$</li>
+                </ul>
+            </div>
+            <div class="itemGr ">
+                <p class="itemGrHeader">Forks services</p>
+                <ul class="grlist">
+                    <li>ТО вилки - 55$</li>
+                    <li>заміна штоку - 30$</li>
+                    <li>lower leg service - 40$</li>
+                    <li>заміна вилки - 20$</li>
+                    <li>заміна башингів - 30$</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="screen5">
+        <div class="reviewsGr">
+            <p style="font-size: 48px; color: whitesmoke; margin-bottom: 40px; ">Reviews</p>
+            <div class="gridForRv">
+                <div class="review">
+                    <img src="imgs/review.png" alt="" class="reviewImg">
+                    <img src="imgs/star.png" class="starReview" alt="">
+                    <p class="reviewName">Ivan Shevchenko
+                    </p>
+                    <p class="reviewTxt">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  
+                    </p>
+                </div>
+                <div class="review reviewOrange">
+                    <img src="imgs/review.png" alt="" class="reviewImg">
+                    <img src="imgs/star.png" class="starReview" alt="">
+                    <p class="reviewName">Ivan Shevchenko
+                    </p>
+                    <p class="reviewTxt">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  
+                    </p>
+                </div>
+                <div class="review">
+                    <img src="imgs/review.png" alt="" class="reviewImg">
+                    <img src="imgs/star.png" class="starReview" alt="">
+                    <p class="reviewName">Ivan Shevchenko
+                    </p>
+                    <p class="reviewTxt">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  
+                    </p>
+                </div>
+                <div class="review reviewOrange">
+                    <img src="imgs/review.png" alt="" class="reviewImg">
+                    <img src="imgs/star.png" class="starReview" alt="">
+                    <p class="reviewName">Ivan Shevchenko
+                    </p>
+                    <p class="reviewTxt">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  
+                    </p>
+                </div>
+                <div class="review ">
+                    <img src="imgs/review.png" alt="" class="reviewImg">
+                    <img src="imgs/star.png" class="starReview" alt="">
+                    <p class="reviewName">Ivan Shevchenko
+                    </p>
+                    <p class="reviewTxt">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  
+                    </p>
+                </div>
+                <div class="review reviewOrange">
+                    <img src="imgs/review.png" alt="" class="reviewImg">
+                    <img src="imgs/star.png" class="starReview" alt="">
+                    <p class="reviewName">Ivan Shevchenko
+                    </p>
+                    <p class="reviewTxt">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  
+                    </p>
+                </div>
+            </div>
+     
+        </div>
+        <div class="map">
+            <p style=" font-size: 48px; color: whitesmoke; margin-bottom: 40px;">Where to find us</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.259715543584!2d30.513848199999998!3d50.5293396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d394508667eb%3A0x3c36c405d1ba220c!2z0JLQtdC70L7QvNCw0LnRgdGC0LXRgNC90Y8gYm9iZXIuYmlrZQ!5e0!3m2!1suk!2sua!4v1742221076034!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="screen6">
+        <div class="formScreen6">
+            <p style="font-size: 48px; color: whitesmoke;">Contact  form</p>
+         
+            <input type="text" placeholder="Name:" name="" id="name"><br>
+        
+            <input type="number" placeholder="Phone number:" name="" id="number"><br>
+            <input type="text" placeholder="Telegram ID:" name="" id="tgIdd"><br>
+            
+           
+            <textarea name="" placeholder="Problem description:" id="description"></textarea> <br>
+            <button id="ready">SUBMIT</button>
+        </div>
+        <div class="links"><ul class="lastScreenUl">
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Telegram</a></li>
+            <li><a href="">GOOGLE maps</a></li>
+            <li><a href="">Email</a></li>
+        </ul></div>
+    </div>
+    <footer>
+        <p class="footerText">BOBER.BIKE</p>
+    </footer>
+
+
+<script src="script.js"></script>
 </body>
 </html>

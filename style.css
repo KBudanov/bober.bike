@@ -3,3 +3,428 @@
     padding: 0;
 }
 
+body{
+        font-family: "Lalezar", system-ui;
+        font-weight: 400;
+        font-style: normal;
+       background-color: #141414;
+}
+
+.headerWrapper{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    justify-content: space-between;
+    padding:15px;
+    background-color: #141414;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.headerImg{
+    height: 130%;
+    width: auto;
+    margin-top: -10px;
+}
+
+.headerList{
+    list-style: none;
+    color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.headerList li{
+    color: white;
+    font-size: 24px;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#headerButton{
+    background-color:rgba(178, 100, 71, 1);
+    border: none;
+    border-radius: 20px;
+    width: 9vw;
+    margin-right: 20px;
+}
+
+#headerButton a{
+    color: whitesmoke ;
+    font-size: 24px;
+
+}
+
+.headerImg{
+    margin-left: 50px;
+}
+
+/*screen1*/
+.screenOne{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url("imgs/66666.jpg");
+    background-size: auto;
+    width: 100%;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+.nameScreen11{
+    width: 370px;
+    margin: 0 auto;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.nameScreen1{
+    font-size: 64px;
+    font-weight: 700;
+    color: rgba(178, 100, 71, 1);
+}
+
+.screen1MainText{
+    color:  rgba(71, 108, 94, 1);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: large;
+}
+
+/*screen2*/
+.screenTwo{
+    width: 85%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.screen2Header{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 38px;
+    font-weight: 700;
+    padding-top: 30px;
+    width: auto;
+
+}
+
+.screen2BlocksWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+
+.screen2item{
+     background-color: rgba(71, 108, 94, 1);
+     border-radius: 15px;
+     width:400px ;
+     height: 550px;
+}
+
+.screen2ItemImg{
+    width: 250px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.screen2List{
+    color: whitesmoke;
+    margin-left: 50px;
+    font-size: 24px;
+
+    margin-top: 20px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item2{
+    background-color: whitesmoke;
+}
+
+.item2 ul li {
+    color: black;
+}
+
+.item3{
+    background-color: rgba(178, 100, 71, 1) ;
+    
+}
+ 
+/*screen3*/
+.screen3{
+    background-color:  rgba(178, 100, 71, 1.2) ;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.screen3Txt{
+    font-size: 48px;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+
+.screen3Imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding-bottom: 60px;
+}
+
+.screen3Img{
+    width: 400px;
+    height: 590px;
+    border-radius: 15px;
+}
+
+/*screen 4*/
+.screen4{
+    width: 1444px;
+    height: auto ;
+    padding-bottom: 60px;
+    margin: 0 auto;
+   
+}
+.screen4Pl{
+    padding-top: 40px;
+    color: whitesmoke;
+    font-size: 48px;
+    margin-left: 20px;
+}
+
+.screen4DpTxt{
+    color: whitesmoke;
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+.screen4Grid{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3 , 460px);
+    grid-template-rows: repeat(2 , 310px);
+    grid-gap:60px ;
+
+}
+
+.itemGr{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+   
+}
+
+.itemGrHeader{
+    color: black;
+    font-size: 24px;
+    margin: 30px;
+}
+
+.grlist{
+    margin-left: 50px;
+}
+
+.grlist li{
+    font-size: 20px;
+}
+
+.itemGrGreen{
+    background-color: rgba(71, 108, 94, 1) ;
+    color: whitesmoke;
+}
+
+.itemGrGreen p{
+    color: whitesmoke;
+}
+
+
+.itemGrOrange{
+    background-color:  rgba(178, 100, 71, 1) ;
+    color: whitesmoke;
+}
+
+.itemGrOrange p{
+    color: whitesmoke;
+}
+
+.orderConsult{
+    position: absolute;
+    margin-left: 69%;
+    margin-top: -100px !important;
+    width: 200px;
+    height: 74px;
+    color: whitesmoke;
+    background-color:rgba(71, 108, 94, 1);
+    border: none;
+    border-radius: 15px;
+    font-size: 32px;
+    font-family: "Lalezar", system-ui;
+    margin-top: 40px;
+}
+
+/*screen 5*/
+.screen5{
+    width: 100%;
+    height: auto ;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(71, 108, 94, 1);
+}
+
+iframe{
+    border-radius: 15px;
+    height: 440px ;
+    width: 560px ;
+}
+
+.map , .reviewsGr{
+    margin-top: 50px;
+}
+
+.gridForRv{
+    display: grid;
+    grid-template-columns: repeat(3 , 300px);
+    grid-template-rows: repeat(2 , 200px);
+    grid-gap: 55px;
+}
+
+.review{
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.starReview{
+    width: 120px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.reviewName{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.reviewTxt{
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.reviewImg{
+    position: absolute;
+    width: 100px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.reviewOrange{
+    background-color: rgba(178, 100, 71, 1);
+}
+
+.reviewOrange p{
+    color: whitesmoke;
+}
+
+.screen6{
+        width: 100%;
+        height: auto ;
+        padding-bottom: 60px;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url("imgs/66666.jpg");
+  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+
+.formScreen6{
+    margin-left: 200px;
+    padding-top: 60px;
+}
+
+
+
+.lastScreenUl{
+    list-style: none;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
+.lastScreenUl li{
+    font-size: 48px;
+    margin-top: 70px;
+}
+
+.formScreen6 input{
+    width: 450px;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 40px;
+    font-size: 24px;
+    color: black;
+ 
+    padding-left: 20px;
+    font-family: "Lalezar", system-ui;
+}
+
+.formScreen6 textarea{
+    width: 450px;
+    height: 130px;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-size: 24px;
+    color: black;
+    font-family: "Lalezar", system-ui;
+    padding-left: 20px;
+}
+
+.formScreen6 input::placeholder ,.formScreen6 textarea::placeholder {
+    font-size: 24px;
+    color: black;
+    font-family: "Lalezar", system-ui;
+    padding-left: 10px;
+}
+
+#ready{
+    width: 150px;
+    height: 60px;
+    color: whitesmoke;
+    background-color:rgba(71, 108, 94, 1);
+    border: none;
+    border-radius: 15px;
+    font-size: 32px;
+    font-family: "Lalezar", system-ui;
+    margin-top: 40px;
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(178, 100, 71, 1);
+    height: 80px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 48px;
+    padding-top: 10px;
+}
