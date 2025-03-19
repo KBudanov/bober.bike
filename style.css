@@ -646,3 +646,139 @@ footer{
         width: 550px;
     }
 }
+
+
+@media screen and (max-width: 576px) { 
+    .headerList , .headerButton{
+        display: none;
+    }
+    .burgerMenu{
+        display: block !important;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+    }
+    #headerButton{
+        display: none;
+    }
+    .mobileTextHeader{
+        font-size: 32px ;
+        color: whitesmoke;
+        display: block !important;
+        margin-left: -65px;
+        margin-top: -5px;
+    }
+    .headerWrapper{
+        background-color: rgba(178, 100, 71, 1);
+        height: 30px;
+        border: none;
+        width: 100%;
+    }
+    .headerImg{
+        width:48px ;
+        height: 48px;
+        border-radius: 5px;
+        margin-left: 5px; 
+    }
+
+    .burgerMenu img{
+        width: 48px;
+        margin-left: -100px;
+        margin-top: -10px;
+    }
+    .screenOne{
+        width: 100%;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url('imgs/4444.webp') ;
+        background-size: auto;
+        background-position: center;
+    }
+    .nameScreen1 , .screen1MainText p{
+        color: whitesmoke;
+    }
+    .nameScreen1{
+        font-size: 32px;
+    }
+    .screen1MainText p{
+        font-size: 15px;
+    }
+    .nameScreen11{
+        width: auto;
+        text-align: left;
+        margin-left: 30px;
+        margin-top: -80px;
+        position: absolute;
+
+    }
+    .screen1MainText{
+        padding-top: 130px;
+        text-align: left;
+        width: 50%;
+       margin-left: 30px;
+    }
+    .screen1MainText p span{
+        position: absolute;
+        margin-top: 70px;
+        margin-right: 160px;
+        width: 60%;
+    }
+    .orderConsultM{
+        display: block !important;
+        margin-top: 500px;
+        position: relative;
+        
+
+        margin: 0 auto !important;
+        margin-top: 330px !important;
+        width: 130px;
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .screenTwo{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .screen2BlocksWrapper{
+        display: none;
+    }
+    .screen2Header{
+        font-size: 24px;
+    }
+    .screen2BlocksWrapperM{
+        display:  block grid !important;
+       margin-top: 50px;
+        grid-template-columns: repeat(2 , 170px);
+        grid-gap: 20px;
+        grid-template-rows: repeat(2 , 200px);
+    }
+    .screen2ItemImg{
+        width: 110px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .screen2itemM{
+        background-color: whitesmoke;
+        border-radius: 15px;
+    }
+    .screen2ListM{
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+    .screen2ListM li{
+        font-size: 12px;
+    }
+    .item2M{
+        background-color: rgba(71, 108, 94, 1);
+    }
+    .item3M{
+        background-color: rgba(178, 100, 71, 1);
+    }
+    .item2M , .item3M ul li{
+        color: whitesmoke;
+    }
+}
+
+.burgerMenu , .mobileTextHeader , .orderConsultM , .screen2BlocksWrapperM{
+    display: none;
+}
+
