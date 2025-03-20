@@ -1,6 +1,6 @@
 $("#ready").on("click", function() {
     let tgId = 961172191;
-   // let tgId2 = 961172191;
+    let tgId2 = 6544843656;
     let botToken = '7778420619:AAGdw0nns0aoXuSQcc-Fi0-1G53eFpHgPh8';
 
     let tgIdd = "none";
@@ -24,17 +24,17 @@ Problem description: ${description}%0A
 
 
 let botUrl = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${tgId}&text=${orderText}`;
-   // let botUrl2 = `https://api.telegram.org/bot${botToken}/sendPhoto?chat_id=${tgId2}&caption=${orderText}`;
+let botUrl2 = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${tgId2}&text=${orderText}`;
 
     $.post(botUrl)
-   // $.post(botUrl2)
+    $.post(botUrl2)
 })
 
 
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    direction: 'horizontal',
+    direction: 'vertical',
     loop: true,
   
     // If we need pagination
