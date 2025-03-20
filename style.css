@@ -234,6 +234,10 @@ a{
     background-color: whitesmoke;
     border-radius: 15px;
 }
+.screen5mapText{
+    font-size: 48px; color: whitesmoke; margin-bottom: 40px;
+}
+
 
 .itemGrHeader{
     color: black;
@@ -363,6 +367,9 @@ iframe{
 .formScreen6{
     margin-left: 200px;
     padding-top: 60px;
+}
+.contactFormHeaderText{
+    font-size: 48px; color: whitesmoke;
 }
 
 
@@ -649,6 +656,9 @@ footer{
 
 
 @media screen and (max-width: 576px) { 
+    body{
+        overflow-x: hidden;
+    }
     .headerList , .headerButton{
         display: none;
     }
@@ -671,7 +681,7 @@ footer{
         background-color: rgba(178, 100, 71, 1);
         height: 30px;
         border: none;
-        width: 100%;
+        width: 94%;
     }
     .headerImg{
         width:48px ;
@@ -682,7 +692,7 @@ footer{
 
     .burgerMenu img{
         width: 48px;
-        margin-left: -100px;
+        margin-left: -80px;
         margin-top: -10px;
     }
     .screenOne{
@@ -690,6 +700,8 @@ footer{
         background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url('imgs/4444.webp') ;
         background-size: auto;
         background-position: center;
+        height: auto;
+        padding-bottom: 25px;
     }
     .nameScreen1 , .screen1MainText p{
         color: whitesmoke;
@@ -746,7 +758,8 @@ footer{
     }
     .screen2BlocksWrapperM{
         display:  block grid !important;
-       margin-top: 50px;
+        margin-left: -5px;
+       margin-top: 30px;
         grid-template-columns: repeat(2 , 170px);
         grid-gap: 20px;
         grid-template-rows: repeat(2 , 200px);
@@ -776,9 +789,160 @@ footer{
     .item2M , .item3M ul li{
         color: whitesmoke;
     }
+
+    .screen3Txt{
+        font-size: 22px;
+    }
+    .screen3Imgs{
+        display: none;
+    }
+    .sliderScreen3Mobile{
+        display:  block !important;
+        margin-top: 60px;
+    }
+    .screen3{
+        height: auto;
+        padding-bottom: 60px;
+    }
+   .sliderScreen3Mobile .swiper {
+        width: 400px;
+        height: 400px;
+      }
+      .sliderScreen3Mobile .swiper-slide{
+        max-width: 400px;
+        margin-right: 20px;
+        border: 2px solid black;
+      }
+
+      /*screen 4*/
+      .orderConsult{
+        display: none;
+      }
+      .screen4Pl{
+        font-size:24px ;
+        margin-left: 20px;
+      }
+      .screen4DpTxt{
+        font-size: 16px;
+        margin-left: 20px;
+      }
+      .screen4Grid{
+        margin-left: 20px;
+        grid-template-columns: repeat(2 , 170px);
+        grid-template-rows: repeat(3 , 200px);
+        grid-gap: 20px;
+      }
+      .itemGrHeader{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .grlist li{
+        font-size: 14px;
+        margin-left: -25px;
+        margin-top: 0;
+      }
+
+      /*reviews*/
+      .gridForRv{
+        display: none;
+      }
+      .sliderScreen4Mobile{
+        display: block !important;
+      }
+
+      .screen5{
+        display: flex;
+        flex-direction: column;
+      }
+      .screen5mapText{
+        font-size: 36px !important; 
+        margin-left: 20px;
+    }
+    iframe{
+        width: 360px;
+        height: 350px;
+       
+        margin-left: 25px;
+    }
+    .review{
+        width: 300px;
+        height: 200px;
+    }
+   .sliderScreen4Mobile .swiper-wrapper{
+    width: 250px;    
+    margin-left: 40px;
+    }
+    .screen6{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactFormHeaderText{
+        font-size: 36px ;
+
+    }
+    .formScreen6{
+        margin-left: 20px;
+        margin-top: -20px;
+  
+    }
+    .formScreen6 input{
+        width: 250px;
+        height: 50px;
+        border-radius: 40px;
+        margin-top: 10px;
+        font-size: 24px;
+        color: black;
+        padding-left: 10px;
+        font-family: "Lalezar", system-ui;
+    }
+    
+    .formScreen6 textarea{
+        width: 310px;
+        height: 100px;
+        border-radius: 20px;
+        margin-top: 10px;
+        font-size: 24px;
+        color: black;
+        font-family: "Lalezar", system-ui;
+        padding-left: 10px;
+    }
+    
+    .formScreen6 input::placeholder ,.formScreen6 textarea::placeholder {
+        font-size: 20px;
+        color: black;
+        font-family: "Lalezar", system-ui;
+        padding-left: 0;
+    }
+    #ready{
+        height: 50px;
+        width: 130px;
+        font-size:26px ;
+        background-color: rgba(178, 100, 71, 1);
+        color: black;
+        margin-top: 10px;
+    }
+    .lastScreenUl li{
+        font-size: 36px;
+        margin-left: 20px ;
+        white-space: nowrap;
+    }
+    .leftLiLastScreen{
+        margin-left: 210px !important;
+    }
+    .links{
+        margin-top: -40px;
+    }
+    footer{
+        padding-bottom: 20px;
+    }
+    .footerText{
+        font-size: 42px;
+    }
 }
 
-.burgerMenu , .mobileTextHeader , .orderConsultM , .screen2BlocksWrapperM{
+
+.burgerMenu , .mobileTextHeader , .orderConsultM , .screen2BlocksWrapperM , .sliderScreen3Mobile , .sliderScreen4Mobile{
     display: none;
 }
 
