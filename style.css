@@ -930,14 +930,22 @@ footer{
     .leftLiLastScreen{
         margin-left: 210px !important;
     }
-    .links{
-        margin-top: -40px;
-    }
+  
     footer{
         padding-bottom: 20px;
     }
     .footerText{
         font-size: 42px;
+    }
+    .links{
+        height: 450px;
+        margin-top: 30px;
+    }
+    .firstLiLastScrren{
+        margin-top: 0px !important;
+    }
+    .lastScreenUl{
+        margin-top: 10px;
     }
 }
 
