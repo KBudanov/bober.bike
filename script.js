@@ -34,7 +34,7 @@ let botUrl2 = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${tgI
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: true,
   
     // If we need pagination
