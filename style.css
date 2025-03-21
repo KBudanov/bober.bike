@@ -656,6 +656,9 @@ footer{
 
 
 @media screen and (max-width: 576px) { 
+    html{
+        overflow-x: hidden;
+    }
     body{
         overflow-x: hidden;
     }
