@@ -732,8 +732,8 @@ footer{
     .screen1MainText p span{
         position: absolute;
         margin-top: 70px;
-        margin-right: 180px;
-        width: 60%;
+        margin-right: 250px;
+        width: 55%;
     }
     .orderConsultM{
         display: block !important;
