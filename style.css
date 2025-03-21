@@ -733,6 +733,7 @@ footer{
         position: absolute;
         margin-top: 70px;
         margin-right: 250px;
+        overflow-x: hidden;
         width: 55%;
     }
     .orderConsultM{
