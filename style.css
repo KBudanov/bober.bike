@@ -732,7 +732,7 @@ footer{
     .screen1MainText p span{
         position: absolute;
         margin-top: 70px;
-        margin-right: 220px;
+        margin-right: 60%;
         overflow-x: hidden;
         width: 55%;
     }
