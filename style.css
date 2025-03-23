@@ -5,9 +5,9 @@
 }
 
 body{
-        font-family: "Lalezar", system-ui;
-        font-weight: 400;
-        font-style: normal;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
        background-color: #141414;
        overflow-x: hidden;
 }
@@ -30,6 +30,14 @@ body{
     margin-top: -10px;
 }
 
+.grlist{
+    margin-top: -10px;
+}
+
+.grlist > li{
+    margin-top: 5px;
+}
+
 .headerList{
     list-style: none;
     color: white;
@@ -42,13 +50,13 @@ body{
 
 .headerList li{
     color: white;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 a{
     color: whitesmoke;
     text-decoration: none;
-    font-family: "Lalezar", system-ui;
+    font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -63,7 +71,7 @@ a{
 
 #headerButton a{
     color: whitesmoke ;
-    font-size: 24px;
+    font-size: 18px;
 
 }
 
@@ -73,8 +81,9 @@ a{
 
 /*screen1*/
 .screenOne{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url("imgs/66666.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url("imgs/workTable.jpg");
     background-size: auto;
+    background-attachment: fixed;
     width: 100%;
     margin: 0 auto;
     height: 90vh;
@@ -146,7 +155,7 @@ a{
 .screen2List{
     color: whitesmoke;
     margin-left: 50px;
-    font-size: 24px;
+    font-size: 22px;
 
     margin-top: 20px;
     height: 220px;
@@ -213,7 +222,7 @@ a{
 
 .screen4DpTxt{
     color: whitesmoke;
-    font-size: 36px;
+    font-size: 30px;
     margin-left: 20px;
 }
 
@@ -282,8 +291,8 @@ a{
     background-color:rgba(71, 108, 94, 1);
     border: none;
     border-radius: 15px;
-    font-size: 32px;
-    font-family: "Lalezar", system-ui;
+    font-size: 22px;
+    font-family: "Russo One", sans-serif;
     margin-top: 40px;
 }
 
@@ -357,9 +366,10 @@ iframe{
         width: 100%;
         height: auto ;
         padding-bottom: 60px;
-        background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url("imgs/66666.jpg");
-  
+        background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url("imgs/forest.jpg");
+        background-position: center bottom;
         display: flex;
+        background-attachment: fixed;
         flex-direction: row;
         justify-content: space-between;
 }
@@ -394,7 +404,7 @@ iframe{
     color: black;
  
     padding-left: 20px;
-    font-family: "Lalezar", system-ui;
+    font-family: "Russo One", sans-serif;
 }
 
 .formScreen6 textarea{
@@ -404,14 +414,14 @@ iframe{
     margin-top: 40px;
     font-size: 24px;
     color: black;
-    font-family: "Lalezar", system-ui;
+    font-family: "Russo One", sans-serif;
     padding-left: 20px;
 }
 
 .formScreen6 input::placeholder ,.formScreen6 textarea::placeholder {
     font-size: 24px;
     color: black;
-    font-family: "Lalezar", system-ui;
+    font-family: "Russo One", sans-serif;
     padding-left: 10px;
 }
 
@@ -423,7 +433,7 @@ iframe{
     border: none;
     border-radius: 15px;
     font-size: 32px;
-    font-family: "Lalezar", system-ui;
+    font-family: "Russo One", sans-serif;
     margin-top: 40px;
 }
 
@@ -536,7 +546,7 @@ footer{
     }
     .orderConsult{
         margin-left: 81%;
-        font-size: 26px;
+        font-size: 18px;
     }
     .screen4Pl,
     .screen4DpTxt{
@@ -560,12 +570,18 @@ footer{
     }
     .orderConsult{
         margin-left: 79%;
-        font-size: 26px;
+        font-size: 18px;
     }
     .screen4Pl,
     .screen4DpTxt{
         margin-left: 6%;
+ 
     }
+
+    .screen4DpTxt{
+        font-size: 2.2vw;
+    }
+
     .screen4Grid{
         margin-left: 6%;
         display: grid;
@@ -619,7 +635,7 @@ footer{
     }
     .orderConsult{
         margin-left: 77%;
-        font-size: 26px;
+        font-size: 18px;
     }
 
     .screen2BlocksWrapper{
@@ -700,7 +716,7 @@ footer{
     }
     .screenOne{
         width: 100%;
-        background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url('imgs/4444.webp') ;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url('imgs/workProcess.jpg') ;
         background-size: auto;
         background-position: center;
         height: auto;
@@ -782,7 +798,7 @@ footer{
         margin-top: -20px;
     }
     .screen2ListM li{
-        font-size: 12px;
+        font-size: 10px;
     }
     .item2M{
         background-color: rgba(71, 108, 94, 1);
@@ -827,7 +843,7 @@ footer{
         margin-left: 20px;
       }
       .screen4DpTxt{
-        font-size: 16px;
+        font-size: 2.5vw;
         margin-left: 20px;
       }
       .screen4Grid{
@@ -898,7 +914,7 @@ footer{
         font-size: 24px;
         color: black;
         padding-left: 10px;
-        font-family: "Lalezar", system-ui;
+        font-family: "Russo One", sans-serif;
     }
     
     .formScreen6 textarea{
@@ -908,14 +924,14 @@ footer{
         margin-top: 10px;
         font-size: 24px;
         color: black;
-        font-family: "Lalezar", system-ui;
+        font-family: "Russo One", sans-serif;
         padding-left: 10px;
     }
     
     .formScreen6 input::placeholder ,.formScreen6 textarea::placeholder {
         font-size: 20px;
         color: black;
-        font-family: "Lalezar", system-ui;
+        font-family: "Russo One", sans-serif;
         padding-left: 0;
     }
     #ready{
