@@ -187,7 +187,8 @@ a{
 .screen3{
     background-color:  rgba(178, 100, 71, 1.2) ;
     width: 100%;
-    height: auto;
+    height: 80vh;
+    padding-bottom: 40px;
     text-align: center;
 }
 
@@ -213,17 +214,17 @@ a{
 
 /*screen 4*/
 .screen4{
-    width: 1444px;
+  width: 1444px;
     height: auto ;
     padding-bottom: 60px;
     margin: 0 auto;
-   
+   text-align:left ;
 }
 .screen4Pl{
     padding-top: 40px;
     color: whitesmoke;
     font-size: 48px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .screen4DpTxt{
@@ -334,6 +335,7 @@ iframe{
 .review{
     background-color: whitesmoke;
     border-radius: 15px;
+    text-align: left;
 }
 
 .starReview{
@@ -385,6 +387,7 @@ iframe{
         background-attachment: fixed;
         flex-direction: row;
         justify-content: space-between;
+        text-align: left;
 }
 
 .formScreen6{
@@ -957,6 +960,7 @@ footer{
     .review{
         width: 350px;
         height: 200px;
+        text-align: center;
     }
     .reviewTxt{
         margin-top: 20px;
