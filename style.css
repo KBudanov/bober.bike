@@ -24,6 +24,12 @@ body{
     border-bottom: 2px solid whitesmoke;
 }
 
+.listMiddleImg{
+  
+    width: 250px;
+    height: 160px;
+}
+
 .headerImg{
     height: 130%;
     width: auto;
@@ -344,6 +350,7 @@ iframe{
 .reviewTxt{
     font-size: 12px;
     margin-left: 15px;
+    margin-right: 10px;
     margin-top: 20px;
 }
 
@@ -352,6 +359,12 @@ iframe{
     width: 100px;
     margin-left: 180px;
     margin-top: 10px;
+}
+
+.reviewImgCards{
+    height: 60px;
+    width: auto;
+    margin-left: 200px;
 }
 
 .reviewOrange{
@@ -501,14 +514,17 @@ footer{
     
     #headerButton a{
         color: whitesmoke ;
-        font-size: 22px;
+        font-size: 18px;
     }
     .headerList{
         margin-top: 15px;
     }
     .grlist{
-        margin-left: 50px;
+        margin-left: 45px;
         margin-top: -15px;
+    }
+    .grlist li{
+        font-size: 17px;
     }
     .screenOne{
         height: 90vh;
@@ -518,6 +534,16 @@ footer{
     }
     .headerList{
         margin-top: 10px;
+    }
+
+    .reviewImgCards{
+        height: 50px;
+        width: auto;
+        margin-left: 180px;
+        margin-top: 5px;
+    }
+    .reviewTxt{
+        font-size: 10px;
     }
 }
 
@@ -562,6 +588,7 @@ footer{
     .screenTwo{
         height: 85vh; 
     }
+  
 }
 
 @media screen and (max-width: 1400px) {
@@ -667,6 +694,15 @@ footer{
     iframe{
         height: 645px;
         width: 550px;
+    }
+    .screenTwo{
+        height: 100vh;
+    }
+    .grListLess li{
+        font-size: 16px;
+    }
+    .reviewTxt{
+       font-size: 12px;
     }
 }
 
