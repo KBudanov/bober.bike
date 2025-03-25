@@ -460,6 +460,30 @@ footer{
     padding-top: 10px;
 }
 
+
+.mobileNav{
+    position: absolute;
+    z-index: 10;
+    margin-left: 35%;
+    margin-top: 2%;
+    height: 250px;
+    width: 250px;
+    background-color: rgba(71, 108, 94, 1);
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.headerListM{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.headerListM li{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
 @media screen and (max-width: 1650px) {
     .gridForRv{
         display: grid;
@@ -747,13 +771,15 @@ footer{
 
     .burgerMenu img{
         width: 48px;
-        margin-left: -80px;
+        margin-left: -55px;
         margin-top: -10px;
     }
     .screenOne{
         width: 100%;
-        background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url('imgs/workProcess.jpg') ;
-        background-size: auto;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ) , url('imgs/work5.jpg') ;
+        background-size: auto 100%;
+        background-position: center;
+        background-attachment: fixed;
         background-position: center;
         height: auto;
         padding-bottom: 25px;
@@ -784,7 +810,7 @@ footer{
     .screen1MainText p span{
         position: absolute;
         margin-top: 70px;
-        margin-right: 60%;
+        margin-right: 40%;
         overflow-x: hidden;
         width: 55%;
     }
@@ -857,17 +883,17 @@ footer{
         margin-top: 60px;
     }
     .screen3{
-        height: auto;
+        height: 620px;
         padding-bottom: 60px;
     }
    .sliderScreen3Mobile .swiper {
-        width: 100%;
-        height: 400px;
+        width: 90%;
+        height: 500px;
+        border-radius: 15px;
       
       }
       .sliderScreen3Mobile .swiper-slide{
-        width: 20%;
-        border: 2px solid black;
+        width: 100%;
       }
 
       /*screen 4*/
@@ -885,7 +911,7 @@ footer{
       .screen4Grid{
         margin-left: 20px;
         grid-template-columns: repeat(2 , 170px);
-        grid-template-rows: repeat(3 , 200px);
+        grid-template-rows: repeat(3 , 250px);
         grid-gap: 20px;
       }
       .itemGrHeader{
@@ -893,10 +919,18 @@ footer{
         margin-left: 10px;
         margin-top: 10px;
       }
+
+ 
       .grlist li{
-        font-size: 14px;
+        font-size: 11px;
+        text-align: left;
         margin-left: -25px;
         margin-top: 0;
+      }
+
+      .slider1 img{
+        width: 100%;
+        height: auto;
       }
 
       /*reviews*/
@@ -918,13 +952,24 @@ footer{
     iframe{
         width: 360px;
         height: 350px;
-       
-        margin-left: 25px;
+        margin: 0 auto;
     }
     .review{
-        width: 300px;
+        width: 350px;
         height: 200px;
     }
+    .reviewTxt{
+        margin-top: 20px;
+    }
+    .reviewImg{
+        margin-left: 85px;
+    }
+
+    .starReview , .reviewName{
+        margin-left: -70px;
+    }
+
+
    .sliderScreen4Mobile .swiper-wrapper{
     width: 250px;    
     margin-left: 40px;

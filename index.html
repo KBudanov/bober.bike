@@ -24,8 +24,17 @@
         </ul>
         <button id="headerButton"><a href="#consult">Отримати консультацію</a></button>
         <p class="mobileTextHeader">BOBER.BIKE</p>
-        <button class="burgerMenu"><img src="imgs/image.png" alt=""></button>
+        <button class="burgerMenu" onclick="nav(this)"><img src="imgs/image.png" alt=""></button>
     </header>
+
+    <div class="mobileNav">
+        <ul class="headerListM">
+            <li onclick="hidenav()"><a href="#screen1">Про нас</a></li>
+            <li onclick="hidenav()"><a href="#typesOfWork">Роботи які ми робмо</a></li>
+            <li onclick="hidenav()"><a href="#priceList">Ціни</a></li>
+            <li onclick="hidenav()"><a href="#consult">Корисні посилання</a></li>
+        </ul>
+    </div>
 
     <div class="screenOne" id="screen1">
         <div class="nameScreen11"><p class="nameScreen1">BOBER.BIKE</p></div>
@@ -75,7 +84,7 @@
         </div>
         <div class="screen2BlocksWrapperM">
             <div class="screen2itemM">
-                <img src="imgs/1111.jpg" class="screen2ItemImg" alt="">
+                <img src="imgs/commencal.jpg" class="screen2ItemImg" alt="">
                 <ul class="screen2ListM">
                     <li>ТО Перше (технічне обслуговування велосипеда)</li>
                     <li>Виправлення "вісімки"</li>
@@ -83,8 +92,8 @@
                 </ul>
             </div>
             <div class="screen2itemM item2M">
-                <img src="imgs/1111.jpg" class="screen2ItemImg" alt="">
-                <ul class="screen2ListM">
+                <img src="imgs/govnoshig.jpg" style="height: 80px; width: auto;" class="screen2ItemImg" alt="">
+                <ul class="screen2ListM" >
                     <li>Заміна рами велосипеда</li>               
                     <li>Обслуговування трансмісії велосипеда</li>
                     <li>Обслуговування гідравлічних гальм</li>
@@ -92,7 +101,7 @@
                 </ul>
             </div>
             <div class="screen2itemM item3M">
-                <img src="imgs/1111.jpg" class="screen2ItemImg" alt="">
+                <img src="imgs/konstruktor.jpg" class="screen2ItemImg" alt="">
                 <ul class="screen2ListM">
                     <li>ТО Light (технічне обслуговування велосипеда)</li>
                     <li>Заміна вилки</li>
@@ -100,7 +109,7 @@
                 </ul>
             </div>
             <div class="screen2itemM">
-                <img src="imgs/1111.jpg" class="screen2ItemImg" alt="">
+                <img src="imgs/forest.jpg" class="screen2ItemImg" alt="">
                 <ul class="screen2ListM">
                     <li>ТО Full (технічне обслуговування велосипеда)</li>
                     <li>Заміна заднього амортизатора</li>
@@ -125,12 +134,12 @@
         <div class="sliderScreen3Mobile">
             <div class="swiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="imgs/3333.jpg" alt=""></div>
-                  <div class="swiper-slide"><img src="imgs/4444.webp" alt=""></div>
-                  <div class="swiper-slide">Slide 3</div>
-                  <div class="swiper-slide">Slide 4</div>
-                  <div class="swiper-slide">Slide 5</div>
-                  <div class="swiper-slide">Slide 6</div>
+                  <div class="swiper-slide slider1"><img src="imgs/work2.jpg" alt=""></div>
+                  <div class="swiper-slide slider1"><img src="imgs/workProcess.jpg" alt=""></div>
+                  <div class="swiper-slide slider1"><img src="imgs/zelenka.jpg" alt=""></div>
+                  <div class="swiper-slide slider1"><img src="imgs/merida.jpg" alt=""></div>
+                  <div class="swiper-slide slider1"><img src="imgs/rf.jpg" alt=""></div>
+                  <div class="swiper-slide slider1"><img src="imgs/work3.jpg" alt="">/div>
                 </div>
              
               </div>
@@ -170,7 +179,7 @@
                     <li>Перебирання каретки ≈ 350грн</li>
                     <li>Обслуговування каретки та системи з вимірювачем потужності - 620грн</li>
                     <li>Ремонт різьблення шатуна - 580 грн</li>
-                    <li>Заміна заднього перемикача+налаштування - 250грн</li>
+                    <li>Заміна заднього перемикача + налаштування - 250грн</li>
                 </ul>
             </div>
             <div class="itemGr itemGrOrange">
@@ -279,60 +288,67 @@
         <div class="sliderScreen4Mobile">
             <div class="swiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide">      
-                    <div class="review">
-                        <img src="imgs/review.png" alt="" class="reviewImg">
+                  <div class="swiper-slide"><div class="review reviewOrange">
+                        <img src="https://lh3.googleusercontent.com/a-/ALV-UjWSSLAVvf4W7K32EWNiIcb9QrEKoST8F0CuRK-8WqN11df1XYVxFQ=w40-h40-p-rp-mo-ba5-br100" alt="" class="reviewImg reviewImgCards ">
                         <img src="imgs/star.png" class="starReview" alt="">
-                        <p class="reviewName">Ivan Shevchenko
+                        <p class="reviewName">Pol Dark
                         </p>
                         <p class="reviewTxt">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  
+                            Здавав велосипед на стандартне т.о. + т.о. вилки Pike Ultimate та аморта.
+                            Також попросив встанивити та прокачати нову гальмівну систему Code RSC.
+                            Сервісм задоволений на всі 100%
+                            Кожен вузол розібрали, відчистили змазали і зібрали.
+                            Після обслуговування, відчуття наче сів на новий байк.
+                            Рекомендую!
                         </p>
-                    </div>  
-                </div>
-                  <div class="swiper-slide"><div class="review">
-                    <img src="imgs/review.png" alt="" class="reviewImg">
+                </div></div>
+                  <div class="swiper-slide">  <div class="review review5">
+                    <img src="imgs/review2.png" alt="" class="reviewImg">
                     <img src="imgs/star.png" class="starReview" alt="">
-                    <p class="reviewName">Ivan Shevchenko
+
+                    <p class="reviewName">Liub As
                     </p>
                     <p class="reviewTxt">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  
+                        Дякую за якісний і швидкий сервіс.
+                        Вже не перший раз звертаюсь, завжди персонал привітний.
+                        Раджу!
+                        Бобренятка - найкращі🙂…
                     </p>
                 </div></div>
-                  <div class="swiper-slide"><div class="review">
+                  <div class="swiper-slide"> <div class="review reviewOrange">
                     <img src="imgs/review.png" alt="" class="reviewImg">
                     <img src="imgs/star.png" class="starReview" alt="">
-                    <p class="reviewName">Ivan Shevchenko
+                    <p class="reviewName">Alex Rom
                     </p>
                     <p class="reviewTxt">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  
+                        Чудова майстрня, велосипеди ремонтуються вчасно та якісно. Особливо мені подобається сервіс та спілкування, зажди можна отримати корисні поради та особисту увагу до своїх потреб у ремонті та вдосконаленню велосипеда. Рекомендую!
                     </p>
                 </div></div>
-                  <div class="swiper-slide"><div class="review">
-                    <img src="imgs/review.png" alt="" class="reviewImg">
+                  <div class="swiper-slide"> <div class="review reviewWhite">
+                    <img src="https://lh3.googleusercontent.com/a-/ALV-UjVPgH8y0tQmr_ebNLaBaTfUhU8SeoP7UeZBPrdqxN7nqo-Jv873=w66-h66-p-rp-mo-br100" alt="" class="reviewImg reviewImgCards">
                     <img src="imgs/star.png" class="starReview" alt="">
-                    <p class="reviewName">Ivan Shevchenko
+                    <p class="reviewName">Лиллит Д
                     </p>
                     <p class="reviewTxt">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  
+                        Швидкий , якісний ремонт та обслуговування  вела.Звертаюсь до Олексія та  Насті  вже 4 рік. Рекомендую як професіоналів у своїй справі.
                     </p>
                 </div></div>
-                  <div class="swiper-slide"><div class="review">
-                    <img src="imgs/review.png" alt="" class="reviewImg">
+                  <div class="swiper-slide"> <div class="review reviewOrange ">
+                    <img src="imgs/reviewRider.png" alt="" class="reviewImg">
                     <img src="imgs/star.png" class="starReview" alt="">
-                    <p class="reviewName">Ivan Shevchenko
+                    <p class="reviewName">vitaliy mormilkin
                     </p>
                     <p class="reviewTxt">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  
+                        Лучший веломастер в г Киев. Неоднократно пользуюсь услугами. Общителен, всегда расскажет, подскажет, посоветует. Собрал и настроил велосипед с коробки, доволен ! очень рекомендую.
                     </p>
                 </div></div>
-                  <div class="swiper-slide"><div class="review">
-                    <img src="imgs/review.png" alt="" class="reviewImg">
+                  <div class="swiper-slide">    <div class="review">
+                    <img src="https://lh3.googleusercontent.com/a-/ALV-UjVQ48v2FdHLCkqMxdAOm-BY0Z_ep5egvmKVMwc80kbVd8Cpy9lz=w40-h40-p-rp-mo-br100" alt="" class="reviewImg reviewImgCards">
                     <img src="imgs/star.png" class="starReview" alt="">
-                    <p class="reviewName">Ivan Shevchenko
+                    <p class="reviewName">Богдан Язинский
                     </p>
                     <p class="reviewTxt">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  
+                        Хорошая мастерская, привозил велосипед на ТО перед сезоном, всё сделали быстро и как и договаривались. Также удобно что сразу есть детали, не нужно заказывать где-то отдельно. Первая поездка, велосипед будто парил над дорогой, ехать отлично)) 
                     </p>
                 </div></div>
                 </div>

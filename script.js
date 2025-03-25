@@ -53,3 +53,14 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
+
+  $(".mobileNav").toggle();
+
+  function nav(x) {
+    x.classList.toggle("change");
+    $(".mobileNav").toggle();
+}
+
+function hidenav(){
+  $(".mobileNav").toggle();
+}
