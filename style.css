@@ -907,16 +907,17 @@ footer{
         display: none;
       }
       .screen4Pl{
-        font-size:24px ;
+        font-size:26px ;
         margin-left: 20px;
+        margin-top: 20px;
       }
       .screen4DpTxt{
-        font-size: 2.5vw;
+        font-size: 2.7vw;
         margin-left: 20px;
       }
       .screen4Grid{
         margin-left: 20px;
-        grid-template-columns: repeat(2 , 170px);
+        grid-template-columns: repeat(2 , 180px);
         grid-template-rows: repeat(3 , 260px);
         grid-gap: 20px;
       }
@@ -979,7 +980,10 @@ footer{
 
    .sliderScreen4Mobile .swiper-wrapper{
     width: 250px;    
-    margin-left: 40px;
+    margin-left: 30px;
+    }
+    .sliderScreen4Mobile .swiper-wrapper .swiper-slide{
+        width: 100%;
     }
     .screen6{
         display: flex;
@@ -1036,11 +1040,11 @@ footer{
         white-space: nowrap;
     }
     .leftLiLastScreen{
-        margin-left: 210px !important;
+        margin-left: 200px !important;
     }
   
     footer{
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
     .footerText{
         font-size: 42px;
