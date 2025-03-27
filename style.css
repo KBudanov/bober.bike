@@ -960,7 +960,7 @@ footer{
     .review{
         width: 350px;
         height: 200px;
-        text-align: center;
+        text-align: center   ;
     }
     .reviewTxt{
         margin-top: 20px;
