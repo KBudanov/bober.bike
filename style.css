@@ -786,6 +786,7 @@ footer{
         background-position: center;
         height: auto;
         padding-bottom: 25px;
+        position: relative;
     }
     .nameScreen1 , .screen1MainText p{
         color: whitesmoke;
@@ -799,9 +800,10 @@ footer{
     .nameScreen11{
         width: auto;
         text-align: left;
+        position: absolute;
         margin-left: 30px;
         margin-top: -80px;
-        position: absolute;
+     
 
     }
     .screen1MainText{
@@ -809,13 +811,14 @@ footer{
         text-align: left;
         width: 50%;
        margin-left: 30px;
+       position: relative;
     }
     .screen1MainText p span{
+        width: 105%;
         position: absolute;
         margin-top: 70px;
-        margin-right: 40%;
+        margin-left: 20%;
         overflow-x: hidden;
-        width: 55%;
     }
     .orderConsultM{
         display: block !important;
@@ -914,7 +917,7 @@ footer{
       .screen4Grid{
         margin-left: 20px;
         grid-template-columns: repeat(2 , 170px);
-        grid-template-rows: repeat(3 , 250px);
+        grid-template-rows: repeat(3 , 260px);
         grid-gap: 20px;
       }
       .itemGrHeader{
@@ -933,7 +936,7 @@ footer{
 
       .slider1 img{
         width: 100%;
-        height: auto;
+        height: 100%;
       }
 
       /*reviews*/
