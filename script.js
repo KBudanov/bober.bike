@@ -15,20 +15,19 @@ $("#ready").on("click", function() {
     $("#description").val('');
 
     let orderText = `
-NEW ORDER %0A
-Name: ${name}%0A
-Phone Number: ${number}%0A
-Telegram ID: ${tgIdd}%0A
-Problem description: ${description}%0A
+      NEW ORDER %0A
+      Name: ${name}%0A
+      Phone Number: ${number}%0A
+      Telegram ID: ${tgIdd}%0A
+      Problem description: ${description}%0A
 `;
-
 
 let botUrl = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${tgId}&text=${orderText}`;
 let botUrl2 = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${tgId2}&text=${orderText}`;
-
     $.post(botUrl)
     $.post(botUrl2)
 })
+
 
 
 
@@ -52,6 +51,13 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
+
+    loop: true, // Зациклене прокручування
+    autoplay: {
+      delay: 2000, // Час між прокрутками (у мілісекундах)
+      disableOnInteraction: false, // Не зупиняти при взаємодії
+    },
+    speed: 1000, // Швидкість анімації (у мілісекундах)
   });
 
   $(".mobileNav").toggle();
