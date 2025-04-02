@@ -13,6 +13,8 @@ $("#ready").on("click", function() {
     $("#tgIdd").val('');
     let description = $("#description").val()
     $("#description").val('');
+    if(!name) return;
+    if(!number) return;
 
     let orderText = `
       NEW ORDER %0A
