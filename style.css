@@ -12,6 +12,22 @@ body{
        overflow-x: hidden;
 }
 
+button:hover{
+    scale: 1.2;
+}
+.headerList  li:hover{
+    scale: 1.2;
+}
+.lastScreenUl li:hover{
+    scale: 1.2;
+}
+
+.screen4DpTxt a:hover{
+    scale: 1.2;
+    color: rgba(178, 100, 71, 1);
+}
+
+
 .headerWrapper{
     width: 98%;
     margin: 0 auto;
@@ -119,6 +135,17 @@ a{
     letter-spacing: large;
 }
 
+.numFirstScreen{
+    display: block !important;
+    width: auto;
+    padding-top: 3%;
+    margin: 0 auto;
+}
+.numFirstScreen li{
+    font-size: 1.8vw;
+    text-align: center;
+}
+
 /*screen2*/
 .screenTwo{
     width: 85%;
@@ -207,8 +234,8 @@ a{
 }
 
 .screen3Img{
-    width: 400px;
-    height: 590px;
+    width: auto;
+    max-height: 590px;
     border-radius: 15px;
 }
 
@@ -453,6 +480,8 @@ iframe{
     margin-top: 40px;
 }
 
+
+
 footer{
     width: 100%;
     background-color: rgba(178, 100, 71, 1);
@@ -676,6 +705,7 @@ footer{
         width: 15vw;
     }
 
+    .screen3{height: 70vh;}
     .screen4Pl,
     .screen4DpTxt{
         margin-left: 4%;
@@ -772,6 +802,17 @@ footer{
         margin-left: 5px; 
     }
 
+    .numFirstScreen{
+        width: auto;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .numFirstScreen li{
+       text-align: center;
+    }
+    .numFirstScreen li a{
+        font-size: 4vw;
+    }
     .burgerMenu img{
         width: 48px;
         margin-left: -55px;
@@ -1052,12 +1093,14 @@ footer{
     .links{
         height: 450px;
         margin-top: 30px;
+        padding-bottom: 40px;
     }
     .firstLiLastScrren{
         margin-top: 0px !important;
     }
     .lastScreenUl{
         margin-top: 10px;
+       
     }
 }
 
